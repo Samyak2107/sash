@@ -8,3 +8,38 @@ body {
    }
 }
 
+.festival {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.festival-title {
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    border: #dbdcd7 3px solid;
+    text-align: center;
+    color: black;
+    border-radius: 12px;
+    background-image: url(./assets/preview.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15px;
+}
+
+.festive-para {
+    font-size: 20px;
+}
+
+.festive-btn {
+    font-size: 23px;
+    background: orangered;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.festive-btn:hover {
+    background-color: lightcoral;
+    border: 3px solid lightgreen;
+}
