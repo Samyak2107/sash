@@ -43,3 +43,41 @@ body {
     background-color: lightcoral;
     border: 3px solid lightgreen;
 }
+
+.bharatnatyam {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.bha-poster {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    border: 5px dashed brown;
+}
+
+.bha-poster:hover {
+    height: auto;
+    width: 100%;
+    max-width: 420px;
+    border: 5px dashed yellow;
+    transition: 1s;
+}
+
+.bha-btn {
+    font-size: 23px;
+    background: orangered;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.bha-btn:hover {
+    background-color: lightcoral;
+    border: 3px solid lightgreen;
+}
+
+.bha-btn-pad {
+    padding-top: 10px;
+}
